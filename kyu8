@@ -15,3 +15,14 @@ for (char& c : comparStr)
   }
   return comparStr == s;
 }
+
+int main()
+{
+
+is_uppercase("c");
+is_uppercase("C");
+is_uppercase("hello I AM DONALD");
+
+return 0;
+}
+
