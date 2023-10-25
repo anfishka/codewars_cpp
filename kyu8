@@ -1,0 +1,17 @@
+// Is the string uppercase?
+// Task
+// Create a method to see whether the string is ALL CAPS.
+
+// Examples (input -> output)
+
+#include <string>
+
+bool is_uppercase(const std::string &s)
+{
+  std::string comparStr = s;
+for (char& c : comparStr)
+  {
+  c = std::toupper(c)
+  }
+  return comparStr == s;
+}
